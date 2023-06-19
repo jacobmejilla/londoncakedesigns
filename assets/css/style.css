@@ -1,0 +1,96 @@
+.navbar-item img {
+  max-height: 100%;
+}
+
+html {
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  color: #242424;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #dfb4d3;
+  text-decoration: none;
+}
+
+hr {
+  background: #24272c;
+}
+
+.hero {
+  background-image: url(../images/hero.jpg);
+  background-size: 100%; /* Adjust the background size: contain, cover, or specific dimensions */
+  background-position: center;
+}
+
+.button {
+  background-color: #fff8fd;
+  color: black;
+  border: none;
+  font-weight: 700;
+}
+
+
+.title,
+.subtitle {
+  color: #fff8fd;
+}
+
+.title {
+  font-weight: 500;
+}
+
+.subtitle {
+  font-weight: 500;
+  line-height: 1.4em;
+
+}
+
+.title:not(.is-spaced) + .subtitle {
+  margin-top: -0.25em;
+}
+
+.navbar .navbar-item {
+  color: #fff8fd;
+}
+
+.navbar .navbar-item.is-active {
+  color: #fff8fd;
+  font-weight: 700;
+}
+
+.navbar .navbar-item:hover {
+  background: transparent;
+  color: #dfb4d3;
+  text-decoration: none;
+}
+
+.listings {
+  padding-top: 3em;
+  min-height: 70vh;
+  background: #fff8fd;
+}
+
+.footer {
+  background: #fff8fd;
+}
+
+.icons {
+  margin-right: 0.3em;
+  width: 9%;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.footerIcons {
+  font-size: 1.5em;
+}
